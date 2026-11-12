@@ -1,0 +1,63 @@
+/* Color de fondo lila muy suave y tipografía */
+body {
+    background-color: #f4effa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #1f172a;
+    margin: 0;
+    padding: 0;
+}
+
+/* Selector de ID: Encabezado principal en morado oscuro */
+#encabezado-principal {
+    background-color: #4a236b;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+#encabezado-principal h1 {
+    color: #ffffff;
+    font-size: 28px;
+    margin: 0 0 12px 0;
+}
+
+/* Selector de clase: Subtítulo del encabezado en lila claro */
+.subtitulo {
+    color: #e9d8fd;
+    font-size: 15px;
+    margin: 0;
+}
+
+/* Selector de clase: Contenedor estilo tarjeta con borde morado */
+.tarjeta {
+    background-color: #ffffff;
+    border: 1.5px solid #805ad5;
+    border-radius: 10px;
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 25px 35px;
+}
+
+/* Títulos internos de cada sección en morado medio */
+.tarjeta h2 {
+    color: #553c9a;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.tarjeta p {
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.tarjeta ul {
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+
+.tarjeta li {
+    margin-bottom: 6px;
+}
